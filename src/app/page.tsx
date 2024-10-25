@@ -1,15 +1,15 @@
-import Image from "next/image";
-import dynamic from "next/dynamic";
+// import Image from "next/image";
+// import dynamic from "next/dynamic";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import DownloadButton from "@/components/DownloadButton";
 import React from "react";
 
-const pdfPath = "../../pdf/ALEX_PROG.pdf";
-const newPdf = "../../pdf/pdf-open-parameters.pdf";
-const PDFViewer = dynamic(() => import("../components/PDFViewer"), {
-  ssr: false,
-});
+// const pdfPath = "../../pdf/ALEX_PROG.pdf";
+// const newPdf = "../../pdf/pdf-open-parameters.pdf";
+// const PDFViewer = dynamic(() => import("../components/PDFViewer"), {
+//   ssr: false,
+// });
 
 const Home: React.FC = () => {
   return (
